@@ -1,0 +1,1 @@
+document.write("<script type='text/javascript' src='js/new_file.js' ></script>")

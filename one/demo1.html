@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="one" tabindex="1">
+			<p>123456</p>
+		</div>
+		<div class="one" tabindex="2">
+			<p class="two" tabindex="3">787879</p>
+		</div>
+	</body>
+	<script type="text/javascript">
+		var _div = document.getElementsByTagName('div');
+		var one = document.getElementsByClassName('one')[0];
+		var two = document.getElementsByTagName('p')[0];
+	function addDiv(){
+		var div = document.createElement('div');
+		div.appendChild(document.createTextNode('哈哈'));
+		one.appendChild(div);
+	}
+		
+	</script>
+</html>
